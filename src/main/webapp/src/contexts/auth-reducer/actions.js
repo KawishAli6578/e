@@ -1,0 +1,20 @@
+// action - account reducer
+export const LOGIN = '@auth/LOGIN';
+export const LOGOUT = '@auth/LOGOUT';
+export const REGISTER = '@auth/REGISTER';
+
+export const AUTH_LOGIN_START = 'AUTH_LOGIN_START';
+export const AUTH_LOGIN_END = 'AUTH_LOGIN_END';
+
+export const AUTH_PROFILE_LOADING_START = 'AUTH_PROFILE_LOADING_START';
+export const AUTH_PROFILE_LOADING_END = 'AUTH_PROFILE_LOADING_END';
+
+export const AUTH_LOGIN_SUCCESS = 'AUTH_LOGIN_SUCCESS';
+
+export const AUTH_PROFILE_FETCH_SUCCESS = 'AUTH_PROFILE_FETCH_SUCCESS';
+
+export const AUTH_AVATAR_UPDATE = 'AUTH_AVATAR_UPDATE';
+
+export const AUTH_PERMISSION_FETCH_SUCCESS = 'AUTH_PERMISSION_FETCH_SUCCESS';
+
+export const AUTH_FAIL = 'AUTH_FAIL';
